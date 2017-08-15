@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/main_k" android:background="#ffedebec" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="25.0dip" android:layout_marginBottom="10.0dip">
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ffffffff" android:id="@id/text_02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/HelpProfile" android:layout_below="@id/text_01" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#fff16136" android:id="@id/text_01" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:text="@string/helperr" android:layout_above="@id/textView2" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/ly_01" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="25.0dip" android:layout_marginRight="25.0dip">
+                <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/ly_pass" android:background="@drawable/selector_m_21" android:clickable="true" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true">
+                    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ffffffff" android:id="@id/text_password" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/Automatemakeprofilename" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                    <ImageView android:id="@id/imageView11" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/ly_02" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="25.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="25.0dip" android:layout_marginBottom="20.0dip">
+                <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/ly_mag" android:background="@drawable/selector_m_21" android:clickable="true" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true">
+                    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ffffffff" android:id="@id/text_management" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/MakeManual" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

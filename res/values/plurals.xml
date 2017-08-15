@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="time_ago_days">
+        <item quantity="other">today %d</item>
+        <item quantity="one">today %d</item>
+    </plurals>
+    <plurals name="time_ago_hours">
+        <item quantity="other">hours %d</item>
+        <item quantity="one">hours %d</item>
+    </plurals>
+    <plurals name="time_ago_minutes">
+        <item quantity="other">minute %d</item>
+        <item quantity="one">minute %d</item>
+    </plurals>
+    <plurals name="time_ago_months">
+        <item quantity="other">month %d</item>
+        <item quantity="one">month %d</item>
+    </plurals>
+    <plurals name="time_ago_years">
+        <item quantity="other">year %d</item>
+        <item quantity="one">year %d</item>
+    </plurals>
+</resources>

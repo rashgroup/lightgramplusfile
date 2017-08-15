@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginRight="25.0dip" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+        <RelativeLayout android:background="#ffedebec" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="10.0dip">
+            <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ff454344" android:id="@id/text_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="10.0dip" android:text="@string/Settingapersonalpassword" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <EditText android:textSize="14.0dip" android:textColor="#ff494949" android:textColorHint="#ff7f7f7f" android:gravity="right" android:layout_gravity="center_horizontal" android:id="@id/edit_01" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:hint="@string/NewPassword" android:drawableRight="@drawable/lock_close" android:inputType="textPassword" />
+        <EditText android:textSize="14.0dip" android:textColor="#ff565656" android:textColorHint="#ff7f7f7f" android:gravity="right" android:layout_gravity="center_horizontal" android:id="@id/edit_02" android:layout_width="fill_parent" android:layout_height="55.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:hint="@string/repeatpassword" android:drawableRight="@drawable/lock_close" android:inputType="textPassword" />
+        <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/ly_01" android:background="#ff2ea8b1" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="25.0dip" android:layout_marginTop="40.0dip" android:layout_marginRight="25.0dip" android:layout_marginBottom="20.0dip">
+            <RelativeLayout android:id="@id/ly_pass" android:background="@drawable/selector_m_21" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="#ffffffff" android:id="@id/text_save" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/OK" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
